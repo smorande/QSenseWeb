@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QualiSense-AI | Advanced Qualitative Data Analysis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #17a2b8;
+            --dark: #343a40;
+            --light: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--dark);
+        }
+
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary), #20c997);
+            color: white;
+            padding: 4rem 5%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .features {
+            padding: 4rem 5%;
+            background: var(--light);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 4rem 5%;
+            background: white;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border: 2px solid var(--primary);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--primary);
+        }
+
+        .footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 5%;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TheR{square}</div>
+        <a href="https://qualisense-ai-qda.streamlit.app" class="btn btn-primary">Try Now</a>
+    </nav>
+
+    <section class="hero">
+        <h1>QualiSense-AI</h1>
+        <p>Advanced Qualitative Data Analysis Platform Powered by AI</p>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-file-alt"></i>
+            <h3>Multi-document Analysis</h3>
+            <p>Support for PDF, DOCX, and TXT files</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-brain"></i>
+            <h3>AI-powered Analysis</h3>
+            <p>Advanced thematic analysis using GPT models</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Rich Visualizations</h3>
+            <p>Interactive charts and network graphs</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Support Innovation in AI Research</h2>
+        <p>Help us continue developing cutting-edge tools for researchers worldwide</p>
+        <a href="https://www.paypal.com/paypalme/smorande90" class="btn btn-primary">Donate Now</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 TheR{square}. All rights reserved.</p>
+    </footer>
+</body>
+</html>
