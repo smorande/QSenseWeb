@@ -120,13 +120,21 @@
     </section>
 
     <section class="features">
-        {% for feature in features %}
         <div class="feature-card">
-            <i class="{{ feature.icon }}"></i>
-            <h3>{{ feature.title }}</h3>
-            <p>{{ feature.description }}</p>
+            <i class="fas fa-file-alt"></i>
+            <h3>Multi-document Analysis</h3>
+            <p>Support for PDF, DOCX, and TXT files</p>
         </div>
-        {% endfor %}
+        <div class="feature-card">
+            <i class="fas fa-brain"></i>
+            <h3>AI-powered Analysis</h3>
+            <p>Advanced thematic analysis using GPT models</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Rich Visualizations</h3>
+            <p>Interactive charts and network graphs</p>
+        </div>
     </section>
 
     <section class="cta">
